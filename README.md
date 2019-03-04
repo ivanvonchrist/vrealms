@@ -1,5 +1,5 @@
-# summer-escapes
+# vrealms
 
-Assessment piece for ICTWEB505 - Develop complex web page layouts. Key criteria required the use of Flexbox and @media queries to ensure the website was responsive on all devices.
+Assessment piece for ICTWEB506 - Develop complex cascading style.
 
-[See it live on github.io](https://ivanvonchrist.github.io/summer-escapes/)
+[See it live on github.io](https://ivanvonchrist.github.io/vrealms/)
