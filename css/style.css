@@ -156,11 +156,16 @@ section p a:after {
     width: 60%;
     height: auto; }
 
+.alt {
+    background-color: #9F86C0; }
+
+.alt h1, .alt p, .alt a {
+    color: #FFF; }
+
 .col-40 {
     float: left;
     width: 40%;
-    height: 500px;
-    background-color: whitesmoke; }
+    height: 500px; }
 
 .m1, .m2, .m3 {
     background-repeat: no-repeat;
@@ -208,7 +213,7 @@ section p a:after {
 
 .hello {
     color: #FFF;
-    background-color: #24292E; }
+    background-color: #5E548E; }
 
 .hello h1, .hello p {
     width: 30%;
@@ -226,7 +231,7 @@ footer {
     height: auto;
     padding: 5em;
     font-family: "Poppins";
-    background-color: #171B1E; }
+    background-color: #24292E; }
 
 footer a, footer p {
     display: block;
@@ -289,16 +294,16 @@ textarea {
 
 input[type="submit"] {
     margin: 0 auto;
-    border: 1px solid #5E548E;
+    border: 1px solid #9F86C0;
     color: #FFF;
     font-weight: 600;
-    background-color: #5E548E;
+    background-color: #9F86C0;
     transition: 0.1s ease; }
 
 input[type="submit"]:hover {
     cursor: pointer;
-    border-color: #9F86C0;
-    background-color: #9F86C0; }
+    border-color: #BE95C4;
+    background-color: #BE95C4; }
 
 @media (max-width: 1147px) {
     body {
