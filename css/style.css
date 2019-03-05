@@ -36,6 +36,7 @@ header {
 
 #hero-text {
     width: 50%;
+    height: auto;
     padding: 0 0 0 5em;
     box-sizing: border-box; }
 
@@ -156,11 +157,11 @@ section p a:after {
     width: 60%;
     height: auto; }
 
-.alt {
+/* .alt {
     background-color: #9F86C0; }
 
 .alt h1, .alt p, .alt a {
-    color: #FFF; }
+    color: #FFF; } */
 
 .col-40 {
     float: left;
@@ -223,7 +224,7 @@ section p a:after {
     color: #FFF; }
 
 .hello p {
-    margin-bottom: 2.3rem;
+    margin-bottom: 2.5rem;
     padding: 0; }
 
 footer {
@@ -313,7 +314,7 @@ input[type="submit"]:hover {
         flex-wrap: wrap;
         align-content: center;
         justify-content: center; }
-    container, header, nav, section, footer, footer a, .col-100, .col-60, .col-40, .col-25 {
+    container, header, #hero-text, nav, section, footer, footer a, .col-100, .col-60, .col-40, .col-25, .hello, form {
         flex-basis: 100%;
         margin: 0;
         padding: 0; }
@@ -321,9 +322,42 @@ input[type="submit"]:hover {
         margin: 0;
         padding: 0;
         font-size: 1rem; }
+    #hero-text h1 {
+        font-size: 1.2em; }
+    #hero-text p {
+        font-size: 1.6em;
+        margin: 0 1em 1em 1em; }
+    .more {
+        padding: 0.5em 1em; }
+    nav ul {
+        margin: 0; }
     nav ul li {
-        display: block;
-        text-align: center; }
+    display: block;
+    text-align: center; }
+    .col-40, .col-25 {
+        height: 30vh; }
+    .hello h1, .hello p {
+        width: 100%; }
+    section h1 {
+        margin: 4em 1em 0 1em; }
+    section p {
+        margin: 0 1.5em 4em 1.5em; }
     .col-25 p {
         color: #FFF;
         opacity: 1; }
+    .hello {
+        padding: 4em 0; }
+    .hello h1, .hello p {
+        width: calc(100% - 3em); }
+    form {
+        width: calc(100% - 3em);
+        margin: 0 auto; }
+    input[type="text"], input[type="submit"], textarea {
+        width: calc(100% - 3em);
+        margin: 0 auto 1em auto; }
+    footer {
+        padding: 4em 0; }
+    footer a {
+        margin-bottom: 1em; }
+    footer p {
+        margin-bottom: 0; }
