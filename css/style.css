@@ -115,8 +115,12 @@ section {
     text-align: center;
     box-sizing: border-box; }
 
+.80 {
+    margin: 0 auto;
+    width: 80%; }
+
 section h1, section p {
-    margin: 0 15rem; }
+    margin: 0 2.5rem; }
 
 section h1 {
     margin-bottom: 1rem;
@@ -170,7 +174,7 @@ section p a:after {
 
 .m1, .m2, .m3 {
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-position: center; }
 
 .m1 { background-image: url(../images/main-1.png); }
 .m2 { background-image: url(../images/main-2.png); }
