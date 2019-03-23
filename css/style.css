@@ -58,7 +58,7 @@ header {
 
 .more {
     padding: 1em 2em;
-    border-radius: 4px;
+    border-bottom-right-radius: 16px;
     background-color: #9F86C0;
     transition: 0.1s ease; }
 
@@ -99,11 +99,13 @@ nav a {
     color: #FFF;
     text-decoration: none;
     letter-spacing: 0.05em;
-    border-bottom: 4px solid #9F86C0; }
+    border-bottom: 4px solid #9F86C0;
+    border-bottom-right-radius: 2px; }
 
 #active {
     color: #FFF;
-    border-bottom: 9px solid #FFF; }
+    border-bottom: 9px solid #FFF;
+    border-bottom-right-radius: 2px; }
 
 nav a:hover, #active:hover {
     color: #FFF;
@@ -113,11 +115,14 @@ section {
     position: relative;
     height: auto;
     text-align: center;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    background-color: whitesmoke; }
 
-.80 {
-    margin: 0 auto;
-    width: 80%; }
+.boxes {
+    padding: 3rem 0; }
+
+.b1, .b3 { border-left: 16px solid #9F86C0; }
+.b2 { border-right: 16px solid #9F86C0; }
 
 section h1, section p {
     margin: 0 2.5rem; }
@@ -156,21 +161,24 @@ section p a:after {
 .col-100 p {
     padding: 0 0 5rem 0; }
 
-.col-60 {
-    float: left;
-    width: 60%;
-    height: auto; }
-
-/* .alt {
-    background-color: #9F86C0; }
-
-.alt h1, .alt p, .alt a {
-    color: #FFF; } */
-
 .col-40 {
     float: left;
     width: 40%;
-    height: 500px; }
+    height: auto; }
+
+.brr {
+    border-bottom-right-radius: 64px; }
+
+.blr {
+    border-bottom-left-radius: 64px; }
+
+.col-20 {
+    float: left;
+    width: 20%;
+    height: 400px; }
+
+.col-40, .col-20 {
+    background-color: white; }
 
 .m1, .m2, .m3 {
     background-repeat: no-repeat;
@@ -286,7 +294,7 @@ input[type=text], input[type="submit"], textarea {
     padding: 1rem;
     font-family: "Poppins";
     font-size: 0.9rem;
-    border-radius: 4px; }
+    border-bottom-right-radius: 16px; }
 
 input[type="text"], textarea {
     border: 1px solid #FFF;
@@ -338,7 +346,8 @@ input[type="submit"]:hover {
     nav ul li {
     display: block;
     text-align: center; }
-    .col-40, .col-25 {
+    .col-20, .col-25 {
+        width: 100%;
         height: 30vh; }
     .hello h1, .hello p {
         width: 100%; }
@@ -349,6 +358,13 @@ input[type="submit"]:hover {
     .col-25 p {
         color: #FFF;
         opacity: 1; }
+    .brr, .blr {
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px; }
+    .boxes {
+        padding: 0; }
+    .b1, .b2, .b3 {
+        border: 0; }
     .hello {
         padding: 4em 0; }
     .hello h1, .hello p {
