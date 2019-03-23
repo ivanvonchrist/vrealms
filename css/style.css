@@ -34,6 +34,12 @@ header {
     background-color: #5E548E;
     color: #FFF; }
 
+.blank {
+    background-image: none; }
+
+.small {
+    height: 400px; }
+
 #hero-text {
     width: 50%;
     height: auto;
@@ -134,7 +140,7 @@ section h1 {
     font-size: 2rem; }
 
 section p {
-    line-height: 2.5rem;
+    line-height: 2.5em;
     padding-bottom: 5rem; }
 
 section p a {
@@ -154,12 +160,21 @@ section p a:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900; }
 
+section img {
+    width: 50%;
+    height: auto;
+    padding-bottom: 5rem; }
+
 .col-100 {
     width: 100%;
     height: auto; }
 
 .col-100 p {
     padding: 0 0 5rem 0; }
+
+.col-60 {
+    width: 60%;
+    height: auto; }
 
 .col-40 {
     float: left;
@@ -177,7 +192,7 @@ section p a:after {
     width: 20%;
     height: 400px; }
 
-.col-40, .col-20 {
+.col-60, .col-40, .col-20 {
     background-color: white; }
 
 .m1, .m2, .m3 {
@@ -282,6 +297,12 @@ form {
     width: 30%;
     margin-bottom: 5rem; }
 
+.col-60 form {
+    width: 50%; }
+
+.p {
+    padding-bottom: 2.5rem; }
+
 input[type=text], input[type="submit"], textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -297,7 +318,7 @@ input[type=text], input[type="submit"], textarea {
     border-bottom-right-radius: 16px; }
 
 input[type="text"], textarea {
-    border: 1px solid #FFF;
+    border: 1px solid #9F86C0;
     color: #868C92;
     background-color: #FFF; }
 
@@ -318,7 +339,7 @@ input[type="submit"]:hover {
     border-color: #BE95C4;
     background-color: #BE95C4; }
 
-@media (max-width: 1147px) {
+@media (max-width: 1200px) {
     body {
         text-align: center; }
     nav, footer {
@@ -339,6 +360,12 @@ input[type="submit"]:hover {
     #hero-text p {
         font-size: 1.6em;
         margin: 0 1em 1em 1em; }
+    section h1 {
+        font-size: 1.2em; }
+    .p {
+        margin-bottom: 0; }
+    .col-60 form {
+        margin-bottom: 5rem; }
     .more {
         padding: 0.5em 1em; }
     nav ul {
@@ -355,6 +382,8 @@ input[type="submit"]:hover {
         margin: 4em 1em 0 1em; }
     section p {
         margin: 0 1.5em 4em 1.5em; }
+    section h1, section p {
+        width: calc(100% - 3em); }
     .col-25 p {
         color: #FFF;
         opacity: 1; }
