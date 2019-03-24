@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="flex container">
+    <div id="container">
         <header class="flex blank small">
             <div id="hero-text">
                 <h1>Oopsie Woopsie</h1>
