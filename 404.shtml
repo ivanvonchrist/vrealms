@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Open+Sans:300,400,500,600,700|Raleway:300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7COpen+Sans:300,400,500,600,700%7CRaleway:300,400,500,600,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     
     <!-- CSS -->
@@ -50,9 +50,9 @@
             <p>
                 © VREALMS, 2019. All rights reserved.
                 <br>
-                <a href="mailto:"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:"><i aria-label="Send an e-mail" class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com"><i aria-label="Go to our Facebook page" class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i aria-label="Go to our Instagram page" class="fab fa-instagram"></i></a>
                 <br>
             </p>
         </footer>
